@@ -14,7 +14,7 @@ param (
 
     #Optionals
     [string]$api_port = "55000",
-    [string]$api_protocol = "https",
+    [string]$api_protocol = "http",
     [string]$server_ip = $api_ip,
     [string]$agent_name = $env:computername,
     [string]$ossec_path = $env:SystemDrive+"\ossec-agent\",
